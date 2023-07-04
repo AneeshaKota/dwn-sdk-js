@@ -46,5 +46,7 @@ export { RecordsDelete, RecordsDeleteOptions } from './interfaces/records-delete
 export { RecordsQuery, RecordsQueryOptions } from './interfaces/records-query.js';
 export { RecordsRead, RecordsReadOptions } from './interfaces/records-read.js';
 export { SnapshotsCreate, SnapshotsCreateOptions } from './interfaces/snapshots-create.js';
+export { PermissionsRequest } from './interfaces/permissions-request.js';
+export { PermissionsGrant } from './interfaces/permissions-grant.js';
 export { Secp256k1 } from './utils/secp256k1.js';
 export { SignatureInput } from './types/jws-types.js';
